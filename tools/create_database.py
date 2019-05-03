@@ -5,7 +5,7 @@ import pandas as pd
 data_url = 'https://people.sc.fsu.edu/~jburkardt/data/csv/addresses.csv'
 headers = ['product_name','product_price','product_discount', 'product_description']
 # AllProducts = pd.read_csv('products.csv', header=None, names=headers, converters={'zip': str})
-AllProducts = pd.read_csv('/Users/bhavi/Downloads/slick-crud-app-master/tools/products.csv', header=None, names=headers, converters={'zip': str})
+AllProducts = pd.read_csv('/Users/bhavi/Downloads/product-showing-upgrad/tools/products.csv', header=None, names=headers, converters={'zip': str})
 
 
 # Clear example.db if it exists
